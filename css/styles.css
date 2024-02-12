@@ -226,10 +226,11 @@ background-color: #404BBF
     margin-bottom: 8px;
     background-color: #F4F4FD;
     border-radius: 4px;
+    border-radius: 1px solid #8e8f99;
  
 }
 
- .Dignities-subtitle {
+ .dignities-subtitle {
 color: #2E2F42;
 font-size: 20px;
 font-weight: 500;
@@ -303,6 +304,8 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
+
 }
 
 .icon-list {
@@ -433,13 +436,12 @@ background: #2E2F42;
 padding: 100px 0;
 }
 
-.container-footer{
-display:flex;
+.container-footer {
+display: flex;
 align-items: baseline;
-padding-left: 156px;
 }
 
-.footer-container {
+.footer-logo {
 align-items: baseline;
 margin-right: 120px;
 }
@@ -451,11 +453,10 @@ font-weight: 400px;
 line-height: 1.5;
 letter-spacing: 0.32px;
 width: 264px;
-margin-bottom: 16px;
 }
 
 
-.footer-logo {
+.link-footer-logo {
 color: #4D5AE5;
 font-family: Raleway, sans-serif;
 font-size: 18px;
@@ -464,7 +465,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 display: inline-block;
 margin-bottom: 16px;
-text-decoration: none;
+text-transform: uppercase;
 }
 
 .footer-logo-part {
@@ -472,7 +473,6 @@ color: #f4f4fd;
 }
 
 .icons-text {
-display:flex;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -484,9 +484,8 @@ margin-bottom: 16px;
 
 .icon-list-footer {
 display: flex;
-justify-content: center;
 gap: 16px;
-margin-top: 8px;
+
 }
 
 
