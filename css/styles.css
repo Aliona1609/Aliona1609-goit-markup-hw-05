@@ -514,48 +514,52 @@ background-color: #31D0AA;
 }
 
 
-.subscribe-paragraph {
-    margin-bottom: 16px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #ffffff;
+.form-text {
+margin-bottom: 16px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #ffffff;
+
 }
 
-.subscription-form {
-    display: flex;
-    gap: 24px;
+.form {
+display: flex;
+gap: 24px;
 }
 
-.email-label {
-    /* ваші стилі для лейбла */
+.form-input {
+display: flex;
+width: 264px;
+height: 40px;
+border: 1px solid #ffffff;
+background-color: #2E2F42;
+border-radius: 4px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.email-input {
-    width: 264px;
-    height: 40px;
-    border: 1px solid #ffffff;
-    background-color: transparent;
-    font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
-    padding-left: 16px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    color: #ffffff;
+.form-input::placeholder {
+padding-left: 16px;
+color: #ffffff;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+background-color: transparent;
 }
+
 
 .email-input::placeholder {
-    color: #ffffff;
+    color:#4D5AE5;
 }
-
-.subscribe-button {
-    min-width: 165px;
-    height: 40px;
+.form-button {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 165px;
+    height: 40px;
+    background-color: #4D5AE5;
+    padding: 8px 24px;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -563,7 +567,11 @@ background-color: #31D0AA;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    background-color: #4d5ae5;
     border: none;
     border-radius: 4px;
 }
+
+.icon-link-form {
+    margin-left: 16px;
+}
+
